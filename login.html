@@ -1,97 +1,66 @@
-<!doctype html>
-<html lang="en">
-
+<!-- 
+* Copyright 2016 Carlos Eduardo Alfaro Orellana
+-->
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
-  <!-- Style -->
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <title>Login #8</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Material Dark</title>
+	
+     <!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+    
+     <!-- Materialize CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+    
+     <!-- Material Design Iconic Font CSS -->
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    
+    <!-- Malihu jQuery custom content scroller CSS -->
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    
+    <!-- Sweet Alert CSS -->
+    <link rel="stylesheet" href="css/sweetalert.css">
+    
+    <!-- MaterialDark CSS -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
-
-<body>
-
-
-
-  <div class="content">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 order-md-2">
-          <img src="assets/img/login.svg" alt="Image" class="img-fluid">
+<body class="font-cover" id="login">
+    <div class="container-login center-align">
+        <div style="margin:15px 0;">
+            <i class="zmdi zmdi-account-circle zmdi-hc-5x"></i>
+            <p>Inicia sesión con tu cuenta</p>   
         </div>
-        <div class="col-md-6 contents">
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <div class="mb-4">
-                <h3>Masuk <strong>Teknik Informatika</strong></h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
-              </div>
-              <form action="admin/index.html" method="post">
-                <div class="form-group">
-                  <label for="username">Email :</label>
-                  <input type="text" class="form-control" id="username">
-
-                </div>
-                <div class="form-group mt-4">
-                  <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password">
-
-                </div>
-
-                <div class="d-flex mb-5 align-items-center">
-                  <label class="control control--checkbox mb-0"><span class="caption">Ingat Saya</span>
-                    <input type="checkbox" checked="checked" />
-                    <div class="control__indicator"></div>
-                  </label>
-                  <span class="ms-auto"><a href="#" class="forgot-pass">Lupa Password</a></span>
-                </div>
-
-                <input type="submit" value="Masuk" class="btn text-white btn-block btn-success">
-
-                <span class="d-block text-left my-4 text-muted"> or sign in with</span>
-
-                <div class="social-login">
-                  <a href="#" class="facebook">
-                    <span class="icon-facebook mr-3"></span>
-                  </a>
-                  <a href="#" class="twitter">
-                    <span class="icon-twitter mr-3"></span>
-                  </a>
-                  <a href="#" class="google">
-                    <span class="icon-google mr-3"></span>
-                  </a>
-                </div>
-              </form>
+        <form action="">
+            <div class="input-field">
+                <input id="UserName" type="text" class="validate">
+                <label for="UserName"><i class="zmdi zmdi-account"></i>&nbsp; Nombre</label>
             </div>
-          </div>
-
-        </div>
-
-      </div>
+            <div class="input-field col s12">
+                <input id="Password" type="password" class="validate">
+                <label for="Password"><i class="zmdi zmdi-lock"></i>&nbsp; Contraseña</label>
+            </div>
+            <button class="waves-effect waves-teal btn-flat">Ingresar &nbsp; <i class="zmdi zmdi-mail-send"></i></button>
+        </form>
+        <div class="divider" style="margin: 20px 0;"></div>
+        <a href="home.html">Crear cuenta</a>
     </div>
-  </div>
-
-
-
+    
+    <!-- Sweet Alert JS -->
+    <script src="js/sweetalert.min.js"></script>
+    
+    <!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')</script>
+    
+    <!-- Materialize JS -->
+	<script src="js/materialize.min.js"></script>
+    
+    <!-- Malihu jQuery custom content scroller JS -->
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    
+    <!-- MaterialDark JS -->
+	<script src="js/main.js"></script>
 </body>
-
 </html>
